@@ -15,6 +15,7 @@ public class CurrencyConversionBean {
     public CurrencyConversionBean() {
     }
 
+    
     public CurrencyConversionBean(long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
 			BigDecimal totalCalculatedAmount, int port) {
 		super();
